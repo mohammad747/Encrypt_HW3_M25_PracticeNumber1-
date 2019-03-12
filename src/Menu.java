@@ -14,7 +14,6 @@ public class Menu {
 
         System.out.println("Encrypted message is: "+encryption.encryption());
 
-
     }
 
 

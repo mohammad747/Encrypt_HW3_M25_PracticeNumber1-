@@ -21,13 +21,13 @@ class Encryption {
     String encryption() {
         int ascii;
 
-        for (int i = 0; i < this.message.length(); i++) {
+        char[] chars = this.message.toCharArray();
 
-            ascii = (int) this.message.charAt(i);
-
-            this.message = Integer.toString(ascii + key);
+        for (int i=0;i<chars.length;i++){
+            chars[i]= (char)(((int) chars[i])+key);
         }
-        return this.message;
+        this.message = new String(chars);
+        return message;
     }
 
 }

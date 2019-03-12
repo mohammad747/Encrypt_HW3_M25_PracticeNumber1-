@@ -7,12 +7,16 @@ public class Menu {
         Decryption decryption = new Decryption();
 
         System.out.print("Enter the message: ");
-        encryption.setMessage(scanner.next());
+        encryption.setMessage(scanner.nextLine());
 
         System.out.print("Enter the key: ");
         encryption.setKey(scanner.nextInt());
 
-        System.out.println("Encrypted message is: "+encryption.encryption());
+        System.out.println("Encrypted message: "+encryption.encryption());
+
+        System.out.println("Decrypted message:"+decryption.decryption(encryption));
+
+
 
     }
 

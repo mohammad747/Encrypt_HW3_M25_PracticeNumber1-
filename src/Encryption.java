@@ -2,7 +2,7 @@ class Encryption {
     private String message;
     private int key;
 
-    void setMessage(String message) {
+    public void setMessage(String message) {
         this.message = message;
     }
 
@@ -19,12 +19,14 @@ class Encryption {
     }
 
     String encryption() {
-        int ascii;
+
 
         char[] chars = this.message.toCharArray();
 
         for (int i=0;i<chars.length;i++){
+            if (chars[i]==' ')continue;
             chars[i]= (char)(((int) chars[i])+key);
+
         }
         this.message = new String(chars);
         return message;

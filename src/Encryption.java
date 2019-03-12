@@ -1,20 +1,20 @@
-public class Encryption {
+class Encryption {
     private String message;
     private static int key;
 
-    public void setMessage(String message) {
+    void setMessage(String message) {
         this.message = message;
     }
 
-    public String getMessage() {
+    String getMessage() {
         return message;
     }
 
-    public static void setKey(int key) {
+    static void setKey(int key) {
         Encryption.key = key;
     }
 
-    public static int getKey() {
+    static int getKey() {
         return key;
     }
 
@@ -26,9 +26,9 @@ public class Encryption {
 
             ascii = (int) message.charAt(i);
 
-            message = Integer.toString(ascii + key);
+            this.message = Integer.toString(ascii + key);
         }
-        return message;
+        return this.message;
     }
 
 }

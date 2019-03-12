@@ -1,6 +1,6 @@
 class Encryption {
     private String message;
-    private static int key;
+    private int key;
 
     void setMessage(String message) {
         this.message = message;
@@ -10,21 +10,20 @@ class Encryption {
         return message;
     }
 
-    static void setKey(int key) {
-        Encryption.key = key;
+    void setKey(int key) {
+        this.key = key;
     }
 
-    static int getKey() {
+    int getKey() {
         return key;
     }
 
-    String encryption(String message, int key) {
+    String encryption() {
         int ascii;
 
+        for (int i = 0; i < this.message.length(); i++) {
 
-        for (int i = 0; i < message.length(); i++) {
-
-            ascii = (int) message.charAt(i);
+            ascii = (int) this.message.charAt(i);
 
             this.message = Integer.toString(ascii + key);
         }

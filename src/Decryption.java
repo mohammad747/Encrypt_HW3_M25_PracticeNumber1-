@@ -1,6 +1,4 @@
-public class Decryption {
-
-    Encryption encryption = new Encryption();
+class Decryption {
 
     private String decryption(Encryption encryption){
         int ascii;

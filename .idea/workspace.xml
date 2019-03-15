@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="512c38a9-f9e4-414c-9f2c-54a17e36e3d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Encrypt/Decryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Encrypt/Decryption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Encrypt/Encryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Encrypt/Encryption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Encrypt/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Encrypt/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-    </list>
+    <list default="true" id="512c38a9-f9e4-414c-9f2c-54a17e36e3d2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Encryption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+            <state relative-caret-position="168">
+              <caret line="8" selection-start-line="8" selection-end-line="43" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -129,15 +121,16 @@
       <workItem from="1552369157154" duration="13039000" />
       <workItem from="1552478795204" duration="24000" />
       <workItem from="1552481533348" duration="2352000" />
-      <workItem from="1552669252311" duration="252000" />
+      <workItem from="1552669252311" duration="850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19435000" />
+    <option name="totallyTimeSpent" value="20033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24861266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -199,8 +192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Encryption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="43" selection-end-column="15" />
         </state>
       </provider>
     </entry>
